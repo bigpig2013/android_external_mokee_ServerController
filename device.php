@@ -414,6 +414,12 @@ $hardware_info = array(
                      'battery' => '2600 mAh',
                      'display' => '4.6 inch, 1280x720 pixel(319ppi)',
                      'cpuarch' => 'Arm'),
+    'mako' => array('cpu' => 'Qualcomm® Snapdragon™ 8064',
+                     'ram' => '2GB',
+                     'rom' => '8GB',
+                     'battery' => '2100 mAh',
+                     'display' => '4.7 inch, 1280x768 pixel(318ppi)',
+                     'cpuarch' => 'Arm'),
 );
 
 foreach ($devices_info as $k => $val) {
